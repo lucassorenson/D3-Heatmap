@@ -1,0 +1,29 @@
+#svg{
+    background-color: lightblue;
+}
+
+#title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.legend-rects{
+    width: 20px;
+    height: 20px;
+}
+#tooltip{
+    background-color: grey;
+    position: absolute;
+    width: 140px;
+    height: 65px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.cell{
+    stroke: black
+}
