@@ -93,7 +93,7 @@ function makeHeatmap(data, svg, xScale, yScale){
     var rectWidth = (svgValues.width - (svgValues.padding.left) * 2) / (Math.ceil(dataArr.length / 12));
     var rectHeight = ((svgValues.height - (svgValues.padding.top + svgValues.padding.bottom)) / 12);
     var baseTemperature = data.baseTemperature;
-    var colorObj = {blue: '#0105FD', lightblue: '#01FDF7', orange: '#FD8D01', red: '#FD0101'};
+    var colorObj = {blue: 'hsl(170, 100%, 30%)', lightblue: 'hsl(170, 100%, 70%)', orange: 'hsl(30, 90%, 50%)', red: 'hsl(0, 90%, 50%)'};
     var dataVals = ['< 7.66°', ' 7.67° - 8.66°', '8.67° - 9.66°', '> 9.67°'];
     var tooltip = d3.select('body')
         .append('div')
